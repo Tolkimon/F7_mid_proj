@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css"> 
+
+    <style>
+.fill {object-fit: fill;}
+.contain {object-fit: contain;}
+.cover {object-fit: cover;}
+.scale-down {object-fit: scale-down;}
+.none {object-fit: none;}
+</style>
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="left">
+              </div>
+              <div class="title" >It's Robert's 6th Birthday</div>
+            </div>
+            <div class="navbar-inner">
+                <div class="right">
+                    <a href="devs.html" class="link external">Dev Page</a>
+                </div>
+            </div>
+          </div>
+          
+          <!-- Scrollable page content -->
+          <div class="page-content">
+                <div class="list media-list">
+  <ul>
+    <li>
+      
+       <div class="card demo-card-header-pic">
+        <div style="background-image:url(images/bata.jpg)" class="card-header align-items-flex-end">      </div>
+        <div class="card-content card-content-padding">
+        
+        <p>He has an excellent imagination and can tell a story about anything. He also loves her arts an crafts and can spend hours playing with a cardboard box and toilet rolls</p>
+  </div>
+  <a class="link popup-open" href="#" data-popup=".popup-about">
+  <div class="card-footer">Know More About Robert</a></div>
+</div></li>
+        <div class="popup popup-about">
+        <div class="block">
+        
+      <!-- Close Popup -->
+      <p><img src="images/bata.jpg" width="80" height="80"/></p>
+      <p>Name: Robert S. Parangan</p>
+      <p>Birthday: March 23, 2013</p>
+      <p>Mother: Megan S. Parangan</p>
+      <p>Father: Joshua P. Parangan</p>
+
+      <p><a class="link popup-close" href="#">back</a></p>
+      </div>
+     </div>
+     <li>
+      
+       <div class="card demo-card-header-pic">
+        <div style="background-image:url(images/coco.jpeg)" class="card-header align-items-flex-end">     </div>
+        <div class="card-content card-content-padding">
+        
+        <p>Let's Party!</p>
+  </div>
+  <a class="link popup-open" href="#" data-popup=".popup-abouttt">
+  <div class="card-footer">Flow of Events</a></div>
+</div></li>
+        
+    
+  
+        <div class="popup popup-abouttt">
+        <div class="block">
+
+        
+      <div class="timeline-item">
+    <div class="timeline-item-date">23 <small>March</small></div>
+    <div class="timeline-item-divider"></div>
+    <div class="timeline-item-content">
+      <div class="timeline-item-inner">
+        <div class="timeline-item-time">6:00</div>
+        <div class="timeline-item-title">Doors Open</div>
+      </div>
+      <div class="timeline-item-inner">
+        <div class="timeline-item-time">6:00-7:00</div>
+        <div class="timeline-item-title">Fellowship and Photos</div>
+      </div>
+      <div class="timeline-item-inner">
+        <div class="timeline-item-time">7:00-7:20</div>
+        <div class="timeline-item-title">Introduction of the Celebrant</div>
+      </div>
+      <div class="timeline-item-inner">
+        <div class="timeline-item-time">7:20-8:00</div>
+        <div class="timeline-item-title">Parlor Games</div>
+        <div class="timeline-item-text">Balloon Bursts</div>
+        <div class="timeline-item-text">Musical Chairs</div>
+        <div class="timeline-item-text">Carrying Marbles with a Spoon</div>
+        <div class="timeline-item-text">Obstacle Course</div>
+      </div>
+      <div class="timeline-item-inner">
+        <div class="timeline-item-time">8:00-9:00</div>
+        <div class="timeline-item-title">Dinner</div>
+      </div>
+      <div class="timeline-item-inner">
+        <div class="timeline-item-time">9:00</div>
+        <div class="timeline-item-title">End of Party</div>
+        <div class="timeline-item-text">Drinks</div>
+      </div>
+    </div>
+    
+  </div>
+      <p><a class="link popup-close" href="#">back</a></p>
+     
+    </div>
+</div>
+   
+    <li>
+        
+        <div class="card demo-card-header-pic">
+          <div style="background-image:url(images/menu.jpg)" class="card-header align-items-flex-end">     </div>
+          <div class="card-content card-content-padding">
+          
+          <p>Let's Eat!</p>
+    </div>
+    <a href="/kinilaw/" class="item-link item-content">
+    <div class="card-footer">Menu</a></div>
+    </div></li>
+
+      <li>
+          
+          <div class="card demo-card-header-pic">
+            <div style="background-image:url(images/mufasa.jpg)" class="card-header align-items-flex-end">      </div>
+            <div class="card-content card-content-padding">
+            
+            <p>Tito and tita Guest list</p>
+      </div>
+      <a class="link popup-open" href="#" data-popup=".popup-aboutt">
+      <div class="card-footer">View guest list</a></div>
+    </div></li>
+
+    <div class="popup popup-aboutt">
+      <div class="block">
+        <h1><a class="link popup-close" href="#">
+            <i class="icon icon-back"></i>
+            <span class="ios-only link back">Back</span>
+        </a> <div>Tito and Tita guest list</div></h1>
+        
+    <!-- Close Popup -->
+    <div class="list simple-list">
+      <ul>
+        <li>Muhammar Edmoli</li>
+        <li>Manmohit Malhi</li>
+        <li>Ninang Nena</li>
+        <li>Ninong Manny</li>
+        <li>Teofilo Mangaliag</li>
+        <li>Dominador Concon</li>
+        <li>Pablo Manoloto</li>
+        <li>Marciano Vidaure</li>
+        <li>Graciano Llanes</li>
+        <li>Elpidio Odjinar</li>
+        <li>Fernando Sitoy</li>
+        <li>Juanito Bustamante</li>
+        <li>Pedro Escobar</li>
+        <li>Lolita Quiroga</li>
+        <li>Virgion Mamonong</li>
+        <li>Teresita Huerte</li>
+        <li>Ruth Abdul-Aziz</li>
+        <p><a class="link popup-close" href="#">back</a></p>
+      </ul>
+    </div>
+
+    <p><a class="link popup-close" href="#">back</a></p>
+    </div>
+   </div>
+
+  </ul>
+</div>
+
+<div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50" class="swiper-container swiper-init demo-swiper">
+  <p>Clothing</p>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-wrapper">
+
+    <div style="background-image:url(images/men.jpg)" class="swiper-slide"><p style = "color:gray">For Men</p></div>
+    <div style="background-image:url(images/women.jpg)" class="swiper-slide"><p style = "color:gray">For Women</p></div>
+    
+    
+  </div>
+</div>
+            <!-- Link to another page -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
